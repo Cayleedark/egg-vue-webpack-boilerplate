@@ -3646,10 +3646,6 @@ core-js@^2.0.0, core-js@^2.4.0, core-js@^2.5.0, core-js@^2.6.5:
   version "2.6.11"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
 
-core-js@^3.6.5:
-  version "3.6.5"
-  resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
-
 core-util-is@1.0.2, core-util-is@^1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -4403,8 +4399,8 @@ easywebpack-vue@^5.0.0-beta.1:
     vue-template-compiler "^2.6.10"
 
 easywebpack@^5.0.0-beta.1:
-  version "5.0.0-beta.1"
-  resolved "https://registry.npm.taobao.org/easywebpack/download/easywebpack-5.0.0-beta.1.tgz#e305bc0181e10b6b19ef32d80c9dfc4a6198e0b3"
+  version "5.0.0-beta.2"
+  resolved "https://registry.npm.taobao.org/easywebpack/download/easywebpack-5.0.0-beta.2.tgz#44492f05ec5e3f8f1593fb003482c65cb7a8cbcd"
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/plugin-proposal-async-generator-functions" "^7.2.0"
@@ -4442,6 +4438,7 @@ easywebpack@^5.0.0-beta.1:
     lodash.uniq "^4.5.0"
     md5 "^2.2.1"
     mini-css-extract-plugin "^0.11.0"
+    mkdirp "^1.0.4"
     node-noop "^1.0.0"
     node-tool-utils "^1.0.0"
     npm-install-webpack-plugin "^4.0.5"
@@ -11719,35 +11716,6 @@ webpack-tool@^5.0.0-beta.1:
     webpack-dev-middleware "4.0.0-rc.3"
     webpack-hot-middleware "^2.25.0"
     webpack-merge "^4.0.0"
-
-webpack@5.0.0-beta.29:
-  version "5.0.0-beta.29"
-  resolved "https://registry.npm.taobao.org/webpack/download/webpack-5.0.0-beta.29.tgz?cache=0&sync_timestamp=1599859653235&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fwebpack%2Fdownload%2Fwebpack-5.0.0-beta.29.tgz#73ee7eb4a8603ade49f37c7417a1560871a79c90"
-  dependencies:
-    "@types/eslint-scope" "^3.7.0"
-    "@types/estree" "^0.0.45"
-    "@webassemblyjs/ast" "1.9.0"
-    "@webassemblyjs/helper-module-context" "1.9.0"
-    "@webassemblyjs/wasm-edit" "1.9.0"
-    "@webassemblyjs/wasm-parser" "1.9.0"
-    acorn "^7.4.0"
-    chrome-trace-event "^1.0.2"
-    core-js "^3.6.5"
-    enhanced-resolve "5.0.0-beta.10"
-    eslint-scope "^5.1.0"
-    events "^3.2.0"
-    glob-to-regexp "^0.4.1"
-    graceful-fs "^4.2.4"
-    json-parse-better-errors "^1.0.2"
-    loader-runner "^4.0.0"
-    mime-types "^2.1.27"
-    neo-async "^2.6.2"
-    pkg-dir "^4.2.0"
-    schema-utils "^2.7.0"
-    tapable "^2.0.0-beta.11"
-    terser-webpack-plugin "^4.1.0"
-    watchpack "2.0.0-beta.15"
-    webpack-sources "2.0.0-beta.10"
 
 webpack@^5.0.0-beta.29:
   version "5.0.0-beta.30"
