@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "configurations": [
     {
-      "name": "Launch Egg React",
+      "name": "Egg React Debug",
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceRoot}",

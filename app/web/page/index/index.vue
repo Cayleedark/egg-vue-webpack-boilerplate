@@ -18,7 +18,7 @@
               </h2>
               <div class="post-content-preview">{{ item.summary }}</div>
             </div>
-            <div class="post-meta">Posted by hubcarl on 17-09-24</div>
+            <div class="post-meta">Posted by hubcarl on 2017-09-24</div>
           </div>
           <hr>
         </div>

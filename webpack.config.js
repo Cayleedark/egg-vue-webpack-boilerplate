@@ -10,7 +10,16 @@ module.exports = {
     'admin/login/login': 'app/web/page/admin/login/login.vue',
     'test': 'app/web/page/test/test.vue'
   },
-  plugins: [
-    { imagemini: false }
-  ]
+  module: {
+    rules:[
+      {
+        urlimage: {
+          esModule: false
+        }
+      }
+    ]
+  },
+  compile:{
+    thread: false
+  }
 };

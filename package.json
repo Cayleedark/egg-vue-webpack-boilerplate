@@ -57,10 +57,10 @@
   },
   "devDependencies": {
     "babel-plugin-component": "^1.1.1",
-    "easywebpack-cli": "^5.0.0-beta.1",
-    "easywebpack-vue": "^5.0.0-beta.1",
+    "easywebpack-cli": "^5.0.0",
+    "easywebpack-vue": "^5.0.0",
     "egg-logview": "^2.0.1",
-    "egg-webpack": "^5.0.0-beta.1",
+    "egg-webpack": "^5.0.0",
     "egg-webpack-vue": "^2.0.0",
     "eslint": "^7.8.1",
     "eslint-config-egg": "^8.1.2",

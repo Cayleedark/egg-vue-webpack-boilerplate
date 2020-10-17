@@ -26,6 +26,10 @@ module.exports = app => {
     webpackConfigList: easy.getWebpackConfig()
   };
 
+  exports.vuessr = {
+    injectCss: true
+  };
+
   const localIP = ip.address();
   const domainWhiteList = [];
   [7001, 9000, 9001].forEach(port => {
